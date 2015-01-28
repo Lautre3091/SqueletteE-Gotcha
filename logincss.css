@@ -3,6 +3,11 @@ html {
 }
 
 h3 {
-    text-align:center;
+    text-align: center;
     color : blue;
+}
+
+input, button{
+
+    text-align: center;
 }
