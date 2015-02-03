@@ -1,13 +1,22 @@
-html {
-    background-color:hotpink;
+
+.footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
 }
 
-h3 {
-    text-align: center;
-    color : blue;
+.header, .footer{
+    background-color: #ffffff;
 }
 
-input, button{
+body {
+    background-color: #212121;
+}
 
-    text-align: center;
+.corp{
+    color: #ffffff;
+}
+#corpL1{
+    background-color: #272727;
 }
