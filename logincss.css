@@ -24,3 +24,8 @@ body > .container {
 .corp{
     color: #ffffff;
 }
+
+a:hover {
+    color:lightskyblue;
+    text-decoration:none;
+}
