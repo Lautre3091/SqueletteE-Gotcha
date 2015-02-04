@@ -19,7 +19,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">Profil</a></li>
                     <li><a href="#contact">Equipe</a></li>
-                    <li><a href="#about">Deconnexion</a></li>
+                    <li><a data-toggle="modal" data-target="#modalDeco" >Deconnexion</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -40,7 +40,9 @@
             </div>
             <div class="row"  id="corpL3">
                 <div class="col-lg-9 col-lg-offset-1">
-                    Creer Partie
+                    <a data-toggle="modal" data-target="#modalCreationPartie">
+                        Creer Partie
+                </a>
                 </div>
             </div>
     </div>
@@ -49,6 +51,40 @@
         Pied de page
     </footer>
 
+<!-- Modal -->
+<div class="modal fade" id="modalCreationPartie" tabindex="-1" role="dialog" aria-labelledby="modalCreationPartieLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="modalCreationPartieLabel">Creation d'une partie</h4>
+            </div>
+            <div class="modal-body">
+                Ajouter les options pour la creation
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                <button type="button" class="btn btn-primary">Creer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalDeco" tabindex="-1" role="dialog" aria-labelledby="modalDecoLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Deconnexion</h4>
+            </div>
+            <div class="modal-body"> Vous allez vous deconnecter </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-primary">  <a href="login.html"> Deconnexion </a> </button>
+            </div>
+        </div>
+    </div>
+</div>
 
 </div> <!-- /container -->
 <script src="http://code.jquery.com/jquery.js"></script>
